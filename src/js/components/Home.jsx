@@ -1,6 +1,6 @@
 import React from "react";
 import {Navbar} from "./Navbar"
-import {Jumbotrom} from "./Jumbotrom"
+import {Jumbotron} from "./Jumbotron"
 import {Card} from "./Card"
 import {Footer} from "./Footer"
 
@@ -12,7 +12,7 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar/>
-			<Jumbotrom/>
+			<Jumbotron/>
 			<div className="d-flex gap-1">
 			<Card/>
 			<Card/>

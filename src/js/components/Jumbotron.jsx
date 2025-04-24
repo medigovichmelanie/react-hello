@@ -1,7 +1,4 @@
-import React from "react";
-import "../../styles/jumbotrom.css"
-
-export const Jumbotrom = () => {
+export const Jumbotron = () => {
     return (
         <div className="mb-4 rounded-3 mx-5 mt-4">
             <div className="container-fluid py-5 text-start">
